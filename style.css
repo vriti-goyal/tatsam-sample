@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color: #c43036;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-logo{
+    height:50px;
+    display: flex;
+    width:150px;
+    justify-content: center;
+}
+.logo{
+    background-image: url("logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top:6px;
+    height:50px;
+    width:30%;
+}
+.logo-name{
+    margin-top:10px;
+    background-image: url('tatsam.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:40px;
+    width:70%;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    width:620px;
+    height:40px;
+    border-radius:4px;
+}
+.search-input{
+    font-size:1rem;
+    width:100%;
+    border:none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(226, 179, 26);
+    color:#0f1111;
+    font-size:1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-search:hover{
+    border:3px solid orange;
+}
+
+.nav-one{
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+}    
+/* hero*/
+
+
+body{
+    background-color:#d9d9d9;
+}
+.hero{
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about{
+    background-color: white;
+    padding:10px 10px 10px 10px;
+    height:auto;
+    width:auto;
+}
+.about-head{
+    color:#c43036;
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-text{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+}
+/*form*/
+
+.form{
+    padding-right:25px;
+    padding-left: 25px;
+    width:60%;
+    height:400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:5px solid #ffbd59;
+}
+
+.form-head{
+    font-size:1.9rem;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    color: #808080;
+}
+
+.form-text{
+    padding:10px;
+    font-size:1rem;
+}
+.button{
+    height:30px;
+    background-color: #c43036;
+    color:white;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90px;
+}
+/*department*/
+.dept{
+    padding-right:15px;
+    padding-left: 15px;
+    height:400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    background-color: white;
+    height:200px;
+    padding-right:50px;
+    padding-left:50px;
+    background-color:#c43036;
+}
+.policy-main{
+    text-decoration: none;
+    color:white;
+    font-size: 1.3rem;
+}
+.policy{
+    height:100%;
+    margin-top:20px;
+    margin-left: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.social{
+    height:100%;
+    margin-top:20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.social p{
+    color:white;
+    font-size: 1.8rem;
+}
+
+.social-links{
+    display: flex;
+}
+.social-logo i{
+    width:45px;
+    font-size: 1.9rem;
+    color:white;
+}
